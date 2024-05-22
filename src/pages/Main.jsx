@@ -46,7 +46,7 @@ const FH = () => {
         <MoviesCategories />
         <MoviesCategories />
         <MoviesCategories />
-        <VideoPlayer/>
+        <VideoPlayer />
       </DarkTheme>
     </>
   );
