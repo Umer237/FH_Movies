@@ -39,7 +39,6 @@ const MoviesCategories = () => {
                 alt=""
               />
             </SwiperSlide>
-
           ))}
 
         </Swiper>
