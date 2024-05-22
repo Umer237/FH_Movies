@@ -82,7 +82,7 @@ const IntroWithSlider2 = () => {
                     <div className="row">
                       <div className="col-lg-12">
                         <div
-                          style={{ maxWidth: "800px" }}
+                          style={{ maxWidth: "800px", textAlign:'left' }}
                           className="caption dig"
                         >
                           <Split>
@@ -122,8 +122,24 @@ const IntroWithSlider2 = () => {
                             </a>
                           </div>
                         </div>
+                        
                       </div>
+                      
                     </div>
+                    <div className="social-icon">
+          <a href="#0">
+            <FaFacebookF />
+          </a>
+          <a href="#0">
+            <FaInstagram />
+          </a>
+          <a href="#0">
+            <FaXTwitter />
+          </a>
+          <a href="#0">
+            <FaPinterestP />
+          </a>
+        </div>
                   </div>
                 </div>
               </SwiperSlide>
@@ -148,20 +164,7 @@ const IntroWithSlider2 = () => {
           ref={paginationRef}
           className="swiper-pagination top botm custom-font"
         ></div>
-        <div className="social-icon">
-          <a href="#0">
-            <FaFacebookF />
-          </a>
-          <a href="#0">
-            <FaInstagram />
-          </a>
-          <a href="#0">
-            <FaXTwitter />
-          </a>
-          <a href="#0">
-            <FaPinterestP />
-          </a>
-        </div>
+ 
       </div>
     </header>
   );

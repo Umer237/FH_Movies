@@ -19,7 +19,7 @@ const MoviesCategories = () => {
           }}
           breakpoints={{
             0: {
-              slidesPerView: 3,
+              slidesPerView: 2,
             },
             768: {
               slidesPerView: 4,
