@@ -2365,8 +2365,8 @@ body {
 }
 .slider .social-icon {
   position: absolute;
-  left: 40px;
-  bottom: 40px;
+  left: 76px;
+  bottom: -60px;
   z-index: 8;
 }
 .slider .social-icon a {
@@ -2948,6 +2948,24 @@ header.simpl .caption .btn-curve {
 
 /* ====================== [ End Slider ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
+
+@media screen and (min-width: 1440px) {
+  .caption.dig {
+    margin: 0;
+  }
+  .slider .social-icon {
+    position: absolute;
+    left: 60px;
+    bottom: -60px;
+    z-index: 8;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .caption.dig {
+    margin: 0;
+    margin-left: 70px;
+  }
+}
 @media screen and (max-width: 991px) {
   .bg-img {
     background-position: center !important;
@@ -3222,6 +3240,10 @@ header.simpl .caption .btn-curve {
 }
 
 @media screen and (max-width: 767px) {
+  .caption.dig {
+    margin: 0;
+    margin-left: 0px;
+  }
   .sm-mb10 {
     margin-bottom: 10px;
   }
@@ -3587,7 +3609,7 @@ header.simpl .caption .btn-curve {
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 400px;
+  height: 100%;
   border: 0.5px solid #a7a7a7;
   object-fit: cover;
 }
