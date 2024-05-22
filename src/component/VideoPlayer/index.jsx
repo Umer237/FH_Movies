@@ -1,10 +1,11 @@
 import React from "react";
-
+import { CldVideoPlayer } from "next-cloudinary";
+import "next-cloudinary/dist/cld-video-player.css";
 
 const VideoPlayer = () => {
   return (
     <>
-      <h1>Video Player</h1>
+      <CldVideoPlayer width="1920" height="1080" src="samples/cld-sample-video" />
     </>
   );
 };
