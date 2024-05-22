@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import HomeBanner from "../component/Home-Banner";
 import IntroWithSlider2 from "../components/Intro-with-slider2";
 import MoviesCategories from "../component/MoviesCategories";
+import VideoPlayer from "../component/VideoPlayer";
 
 const FH = () => {
   const fixedSlider = React.useRef(null);
@@ -42,6 +43,10 @@ const FH = () => {
         <Navbar nr={navbarRef} lr={logoRef} />
         <IntroWithSlider2 />
         <MoviesCategories />
+        <MoviesCategories />
+        <MoviesCategories />
+        <MoviesCategories />
+        <VideoPlayer/>
       </DarkTheme>
     </>
   );

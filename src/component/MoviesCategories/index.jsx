@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SingleMovie from "../../components/Single-Movies";
 import "swiper/css";
 import "swiper/css/pagination";
-import bannerimg, { bannerimgs } from "../../../public/data/bannerimg";
+import { bannerimgs } from "../../../public/data/bannerimg";
 
 const MoviesCategories = () => {
   return (
@@ -32,15 +32,10 @@ const MoviesCategories = () => {
           className="mySwiper"
         >
           {bannerimgs.map((items) => (
-
             <SwiperSlide>
-              <img
-                src={items.img}
-                alt=""
-              />
+              <img src={items.img} alt="" />
             </SwiperSlide>
           ))}
-
         </Swiper>
       </div>
     </>

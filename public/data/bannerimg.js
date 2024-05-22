@@ -5,7 +5,7 @@ export const bannerimgs = [
   },
   {
     id: 2,
-    img: "https://i.pinimg.com/564x/c1/6a/bd/c16abd9ab16a8fce6633ee769257cdae.jpg",
+    img: "https://i.pinimg.com/564x/ee/92/61/ee9261af246c20572e549e023c2a541e.jpg",
   },
   {
     id: 3,
