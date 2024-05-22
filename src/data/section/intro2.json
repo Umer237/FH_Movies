@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "second": "Venom is a character appearing in American comic books published by Marvel Comics. The character is a sentient alien symbiote with an amorphous",
+      "third": "10:00pm | 2 hours ago"
+    },
+    "image": "/img/HomeBanner/venom-bg.png"
+  },
+  {
+    "id": 2,
+    "title": {
+      "second": "Venom is a character appearing in American comic books published by Marvel Comics. The character is a sentient alien symbiote with an amorphous",
+      "third": "10:00pm | 2 hours ago"
+    },
+    "image": "https://m.media-amazon.com/images/S/pv-target-images/2dab6f975df2434552bce6c8503af9c09357f7d231e6e984e0ef34de14f6a65a.jpg"
+  },
+  {
+    "id": 2,
+    "title": {
+      "second": "Venom is a character appearing in American comic books published by Marvel Comics. The character is a sentient alien symbiote with an amorphous",
+      "third": "10:00pm | 2 hours ago"
+    },
+    "image": "/img/HomeBanner/godzillavskong.jpg"
+  }
+]
