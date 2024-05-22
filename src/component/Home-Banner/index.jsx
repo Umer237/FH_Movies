@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
 import "swiper/css";
 import { images } from "../../image-dara";

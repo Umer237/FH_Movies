@@ -42,9 +42,6 @@ const FH = () => {
         <Navbar nr={navbarRef} lr={logoRef} />
         <IntroWithSlider2 />
         <MoviesCategories />
-        <MoviesCategories />
-        <MoviesCategories />
-        <MoviesCategories />
       </DarkTheme>
     </>
   );
