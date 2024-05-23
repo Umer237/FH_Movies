@@ -1,19 +1,25 @@
-import { CldVideoPlayer } from "next-cloudinary";
-import React from "react";
-
+import { useEffect, useState } from "react";
+import ReactPlayer from "react-player";
 
 const VideoPlayer = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null; // or a loading spinner
+  }
   return (
     <>
       <h1>Video Player</h1>
-      <CldVideoPlayer
-      
-      id="sea-turtle-color"
-      width="1920"
-      height="1080"
-      src="samples/sea-turtle"
-  
-
+      <ReactPlayer
+        url="https://giistyxelor.s3.amazonaws.com/giists/video/video0cP3w019TiZYYcUy22WY.mp4"
+        controls={true}
+        width={100}
+        height={100}
+        playing={true}
       />
     </>
   );

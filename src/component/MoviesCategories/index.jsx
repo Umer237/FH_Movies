@@ -1,4 +1,8 @@
 import React, { useRef, useState } from "react";
+
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import SingleMovie from "../../components/Single-Movies";
@@ -33,7 +37,26 @@ const MoviesCategories = () => {
         >
           {bannerimgs.map((items) => (
             <SwiperSlide>
-              <img src={items.img} alt="" />
+              <div className="wrapper">
+                <div className="image">
+                  <img className="movies-thumb" src={items.img} alt="" />
+                  <div className="content">
+                    <h5>{items.title}</h5>
+                    <p>{items.desc}</p>
+                    <div className="thumb-i">
+                      <a href={items.linkf}>
+                        <FaFacebookF />
+                      </a>
+                      <a href={items.linkin}>
+                        <FaInstagram />
+                      </a>
+                      <a href={items.linktwi}>
+                        <FaXTwitter />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>
