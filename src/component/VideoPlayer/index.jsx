@@ -17,9 +17,6 @@ const VideoPlayer = () => {
       <ReactPlayer
         url="https://giistyxelor.s3.amazonaws.com/giists/video/video0cP3w019TiZYYcUy22WY.mp4"
         controls={true}
-        width={100}
-        height={100}
-        playing={true}
       />
     </>
   );
